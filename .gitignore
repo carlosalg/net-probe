@@ -1,0 +1,26 @@
+# Nornir / inventory secrets
+inventory/hosts.yaml
+inventory/groups.yaml
+inventory/defaults.yaml
+*.yaml.bak
+
+# Reports
+reports/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+
+# Env / secrets
+.env
+*.env
+secrets.yaml
+credentials.yaml
+
+# OS
+.DS_Store
+Thumbs.db
